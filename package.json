@@ -1,0 +1,22 @@
+{
+  "name": "kzt-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "algolia": "atomic-algolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzt-wt/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzt-wt/blog/issues"
+  },
+  "homepage": "https://github.com/kzt-wt/blog#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  }
+}

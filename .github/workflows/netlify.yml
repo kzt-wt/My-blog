@@ -1,0 +1,38 @@
+name: Netlify
+
+on:
+  push:
+    branches: [main]
+#  pull_request:
+#    types: [opened, synchronize]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          #extended: true
+
+      - name: Build Project
+        run: hugo --gc --minify #ここをあとで変更
+
+      - name: Setup npm
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: atomic-algolia install
+        run: npm install atomic-algolia
+      - name: Algolia
+        run: npm run algolia
+
+      # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
+      - run: npx netlify-cli deploy --dir=public
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
