@@ -138,7 +138,7 @@ enableEmoji = true
         [languages.ja.params.search.algolia]
           index = "index"
           appID = "TAPFF4TD6E"
-          searchKey = "a6241f8313ff404b33cb01d4402adf8c"
+          searchKey = "d62ca41080e1f63be7b4c974b7179d07"
         [languages.ja.params.search.fuse]
           # https://fusejs.io/api/options.html
           isCaseSensitive = false
