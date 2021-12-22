@@ -30,6 +30,11 @@ jobs:
         run: npm install atomic-algolia
       - name: Algolia
         run: npm run algolia
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
+          ALGOLIA_INDEX_FILE: ${{ secrets.ALGOLIA_INDEX_FILE }}
 
       # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
       - run: npx netlify-cli deploy --dir=public --prod
