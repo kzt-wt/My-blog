@@ -2,4 +2,5 @@
 netlify.toml
 /public/
 /resources/
+.env
 *.log
