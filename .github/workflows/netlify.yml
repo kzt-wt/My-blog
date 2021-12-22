@@ -32,7 +32,7 @@ jobs:
         run: npm run algolia
 
       # Netlifyにデプロイする。「--dir=./dist」の部分はビルド結果ができあがるディレクトリ名に変えましょう。
-      - run: npx netlify-cli deploy --dir=public
+      - run: npx netlify-cli deploy --dir=public -prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
