@@ -268,7 +268,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/kzt-wt/blog"
+  gitRepo = "https://github.com/kzt-wt/My-blog"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -402,15 +402,15 @@ enableEmoji = true
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
     # configure the link to view source the post
-    linkToSource = "https://github.com/kzt-wt/blog/tree/main/content/{path}"
+    linkToSource = "https://github.com/kzt-wt/My-blog/tree/main/content/{path}"
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/kzt-wt/blog/edit/main/{path}"
+    linkToEdit = "https://github.com/kzt-wt/My-blog/edit/main/{path}"
     # https://github.com/user/repo/edit/main/{path}
     # https://gitlab.com/user/repo/-/edit/main/{path}
     # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
     # configure the link to report issue the post
-    linkToReport = "https://github.com/kzt-wt/blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/kzt-wt/blog/blob/main/content/{path}|"
+    linkToReport = "https://github.com/kzt-wt/My-blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/kzt-wt/My-blog/blob/main/content/{path}|"
     # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
     # whether to show the full text content in RSS
@@ -611,7 +611,7 @@ enableEmoji = true
       # Vssue comment 评论系统设置 (https://vssue.js.org//)
       [params.page.comment.vssue]
         enable = false
-        platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+        platform = "github" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
         owner = ""
         repo = ""
         clientId = ""
