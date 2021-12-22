@@ -2,5 +2,5 @@
 netlify.toml
 /public/
 /resources/
-.env
+algolia.env
 *.log
