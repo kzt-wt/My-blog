@@ -43,7 +43,7 @@ enableEmoji = true
       [[languages.ja.menu.main]]
         identifier = "home"
         # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
+        pre = "<i class='fas fa-home'></i>"
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
         name = "Home"
@@ -54,7 +54,7 @@ enableEmoji = true
       [[languages.ja.menu.main]]
         identifier = "posts"
         # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
+        pre = "<i class='far fa-newspaper'></i>"
         # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
         name = "Blog"
@@ -63,45 +63,37 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.ja.menu.main]]
+        identifier = "series"
+        pre = "<i class='fab fa-buffer'></i>"
+        post = ""
+        name = "Series"
+        url = "/series/"
+        title = ""
+        weight = "4"
+      [[languages.ja.menu.main]]
         identifier = "tags"
-        pre = ""
+        pre = "<i class='fas fa-tags'></i>"
         post = ""
         name = "Tags"
         url = "/tags/"
         title = ""
-        weight = 5
+        weight = 6
       [[languages.ja.menu.main]]
         identifier = "categories"
-        pre = ""
+        pre = "<i class='fas fa-folder'></i>"
         post = ""
         name = "Categories"
         url = "/categories/"
         title = ""
-        weight = 4
+        weight = 5
       [[languages.ja.menu.main]]
         identifier = "about"
-        pre = ""
+        pre = "<i class='fas fa-user'></i>"
         post = ""
         name = "About"
         url = "/about/"
         title = ""
         weight = 2
-      [[languages.ja.menu.main]]
-        identifier = "kaggle"
-        pre = "<i class='fab fa-kaggle'></i>"
-        post = ""
-        name = ""
-        url = "https://www.kaggle.com/kazkidera"
-        title = "kaggle"
-        weight = 7
-      [[languages.ja.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/kzt-wt"
-        title = "GitHub"
-        weight = 6
     [languages.ja.params]
       # site description
       description = "kzt's blog"
@@ -112,9 +104,9 @@ enableEmoji = true
         # optional site title override for the app when added to an iOS home screen or Android launcher
         title = "kzt_blog"
         # whether to omit favicon resource links
-        noFavicon = false
+        noFavicon = true
         # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = "/favicon/safari-pinned-tab.svg"
+        svgFavicon = ""
         # Safari mask icon color
         iconColor = "#5bbad5"
         # Windows v8-10 tile color
@@ -248,6 +240,7 @@ enableEmoji = true
         Linktree = ""
         Email = ""
         RSS = true
+        kaggle = "kazkidera"
       # Sponsor config
       [languages.ja.params.sponsor]
         enable = false
@@ -271,7 +264,7 @@ enableEmoji = true
   gitRepo = "https://github.com/kzt-wt/My-blog"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
-  fingerprint = ""
+  fingerprint = "sha256"
   # date format
   # 日期格式
   dateFormat = "2006-01-02"
@@ -295,13 +288,13 @@ enableEmoji = true
     mobileMode = "auto"
     # theme change mode ("switch", "select")
     # 主题切换模式 ("switch", "select")
-    themeChangeMode = "auto"
+    themeChangeMode = "switch"
     # Header title config
     # 页面头部导航栏标题配置
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/favicon/android-chrome-256x256.png/"
+      logo = "/android-chrome-256x256.png/"
       # title name
       # 标题名称
       name = "kzt_blog"
@@ -324,7 +317,7 @@ enableEmoji = true
     custom = ''
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
-    hugo = true
+    hugo = false
     # whether to show copyright info
     # 是否显示版权信息
     copyright = true
@@ -385,7 +378,7 @@ enableEmoji = true
     hiddenFromSearch = false
     # whether to enable twemoji
     # 是否使用 twemoji
-    twemoji = false
+    twemoji = true
     # whether to enable lightgallery
     # 是否使用 lightgallery
     lightgallery = false
@@ -704,7 +697,7 @@ enableEmoji = true
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/img/github_profile.png/"
+    image = "/img/github_profile.webp/"
     # thumbnail URL
     # 缩略图 URL
     thumbnailUrl = "/img/Screenshot 2021-12-16 at 20-34-04 kzt_blog.png/"
@@ -715,7 +708,7 @@ enableEmoji = true
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-215835174-1"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true

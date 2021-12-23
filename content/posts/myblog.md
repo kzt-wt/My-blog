@@ -2,21 +2,28 @@
 title: "ブログ作りました"
 date: 2021-12-18T21:23:24+09:00
 draft: false
-tags: [Hugo,ブログ]
-categories: [ブログ]
-series: [MYブログを作ってみた！]
+tags: ["Hugo","ブログ"]
+categories: ["ブログ"]
 weight: 1
-description: "Hugoでのブログの作り方も紹介しています。"
+series: ["Hugoでブログ作成"]
+series_weight: 1
+description: "MYブログを作りました。Hugoの説明も載せています。"
 featuredImage: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg"
 lightgallery: true
+seriesNavigation: true
+toc:
+  enable: ture
+  auto: true
+code:
+  copy: true
+linkToMarkdown: 
+summary: "このブログで試用されているHugoの説明と導入方法"
+
 ---
 # MYブログを作ってみた！
 ---
 ## Hugoでのブログ作成
 このブログではHugoという静的サイトジェネレータを試用しています。
-
-
-
 ## 1 Hugoを導入
 ### インストール
 各プラットフォームごとに提供されているので[リリース情報のページ](https://github.com/gohugoio/hugo/releases)の下の方にあるAssetsから適宜選択してください。(ちなみに僕はwindows-64bitを選択しました。)
@@ -28,7 +35,8 @@ lightgallery: true
 windows10の場合
 windowsマークを右クリック⇒システム⇒システムの詳細設定⇒環境変数に進む。
 ログインしている現状のユーザーにパスを通す場合、「ユーザーの環境変数」でPathをダブルクリック⇒新規まで進み、C:\Hugo\binを入力⇒OKで各ウィンドウを閉じる。
-### サイト作成
+### サイトのプレビュー
 ``` sh
 hugo server
 ```
+このコマンドを実行し,`http://localhost:1313`にブラウザでアクセスすると、サイトのプレビューを見ることができます。

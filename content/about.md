@@ -8,7 +8,7 @@ draft: false
 
 ![profile_img](/img/github_profile.png/)
 # 自己紹介
-14才です。kaggleやblenderを中心に活動しています。
+14才です。[kaggle](https://www.kaggle.com/kazkidera)やblenderを中心に活動しています。
 # 趣味
 ## プログラミング
 - 機械学習

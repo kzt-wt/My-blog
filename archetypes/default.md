@@ -8,7 +8,11 @@ categories:
 authors:
 series:
 weight:
+series_weight:
 description:
 featuredImage: 
 lightgallery: true
+toc:
+  auto: true
+seriesNavigation:
 ---
