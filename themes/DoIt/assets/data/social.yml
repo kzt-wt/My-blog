@@ -564,18 +564,18 @@ email:
   Icon:
     Class: far fa-envelope fa-fw
 
+kaggle:
+  Weight: 72
+  Prefix: https://www.kaggle.com/
+  Title: kaggle
+  Icon:
+    Class: fab fa-kaggle fa-fw
 # 072: RSS
 rss:
-  Weight: 72
+  Weight: 73
   Url: /index.xml
   Title: RSS
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
 
-kaggle:
-  Weight: 1
-  Prefix: https://www.kaggle.com/
-  Title: kaggle
-  Icon:
-    Class: fab fa-kaggle fa-fw
