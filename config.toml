@@ -655,7 +655,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "kzt"#kzt-wt
-        logoUrl = "/img/SHIBUYA画像.png/"
+        logoUrl = "/img/SHIBUYA画像.webp/"
 
   # Sponsor config
   # 赞助设置
@@ -810,7 +810,7 @@ enableEmoji = true
   name = "kzt"
   email = ""
   link = "https://github.com/kzt-wt/"
-  avatar = "/img/SHIBUYA画像.png/"
+  avatar = "/img/SHIBUYA画像.webp/"
   gravatarEmail = ""
 
 # Sitemap config

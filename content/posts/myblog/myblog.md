@@ -35,5 +35,9 @@ Hugoは静的なので表示速度が速く、さらにビルド時に最適化�
 >こちらが参考になると思います⇒
 [Hugoとは？](http://www.study-hugo.com/basic/whats-hugo/)
 
+## Githubへ公開
+このブログは[Github](https://github.com/kzt-wt/My-blog)に公開しています。
+理由は多々ありますが、
 
-
+ビルドをGighub actions上で行っているため、無料で使うためにもパブリックリポジトリとして公開しています。
+![github actions](スクリーンショット 2021-12-25 193337.png)
