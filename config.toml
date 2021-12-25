@@ -152,7 +152,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/img/SHIBUYA画像.png"
+          avatarURL = "/img/SHIBUYA画像.webp/"
           # title shown in home page (HTML format is supported)
           title = "kzt"
           # subtitle shown in home page
@@ -294,7 +294,7 @@ enableEmoji = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/android-chrome-256x256.png/"
+      logo = "/img/favicon.webp/"
       # title name
       # 标题名称
       name = "kzt_blog"

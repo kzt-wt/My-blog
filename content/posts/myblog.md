@@ -22,21 +22,18 @@ summary: "このブログで試用されているHugoの説明と導入方法"
 ---
 # MYブログを作ってみた！
 ---
+皆さんブログを書いていますか？
+
+僕は[wordpress](https://wordpress.com/ja/)や[はてなブログ](https://hatenablog.com/guide)、[zenn](https://zenn.dev/about)(zennってブログなのか???)
+
+で迷っていましたが、色々調べた結果[Hugo](https://gohugo.io/)にたどり着きました:clap:
 ## Hugoでのブログ作成
-このブログではHugoという静的サイトジェネレータを試用しています。
-## 1 Hugoを導入
-### インストール
-各プラットフォームごとに提供されているので[リリース情報のページ](https://github.com/gohugoio/hugo/releases)の下の方にあるAssetsから適宜選択してください。(ちなみに僕はwindows-64bitを選択しました。)
+このブログでは[Hugo](https://gohugo.io/)という静的サイトジェネレータを試用しています。
 
-そして、Cドライブ直下に`"C:\Hugo"`を作成し、さらにHugoの中に`"C:\Hugo\bin"`を作成します。
+Hugoは静的なので表示速度が速く、さらにビルド時に最適化されるのでwordpressなどと比べると物凄く早いです。
 
-そこへ、先ほどダウンロードしたzipファイルを展開し、その中にあるhugo.exeを`"C:\Hugo\bin"`へ追加します。
-### 環境変数(PATH)へ追加
-windows10の場合
-windowsマークを右クリック⇒システム⇒システムの詳細設定⇒環境変数に進む。
-ログインしている現状のユーザーにパスを通す場合、「ユーザーの環境変数」でPathをダブルクリック⇒新規まで進み、C:\Hugo\binを入力⇒OKで各ウィンドウを閉じる。
-### サイトのプレビュー
-``` sh
-hugo server
-```
-このコマンドを実行し,`http://localhost:1313`にブラウザでアクセス
+>こちらが参考になると思います⇒
+[Hugoとは？](http://www.study-hugo.com/basic/whats-hugo/)
+
+
+
