@@ -747,7 +747,7 @@ enableEmoji = true
     [params.cookieconsent.content]
       message = "当ブログはcookieを使用します"
       dismiss = "同意する"
-      link = ""
+      link = "詳細"
 
   # CDN config for third-party library files
   # 第三方库文件的 CDN 设置

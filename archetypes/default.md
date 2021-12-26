@@ -10,7 +10,7 @@ series:
 weight:
 series_weight:
 description:
-featuredImage: 
+featuredImage: ""
 lightgallery: true
 toc:
   auto: true
