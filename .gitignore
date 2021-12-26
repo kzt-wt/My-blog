@@ -3,4 +3,6 @@ netlify.toml
 /public/
 /resources/
 algolia.env
+package.json
+package-lock.json
 *.log
