@@ -56,7 +56,7 @@ Github Actionsはパブリックリポジトリでは無料で使えるはずで
 
 ![github actions](https://user-images.githubusercontent.com/87252429/147384859-22cc80f2-ca23-4638-8abb-7537cf868419.png)
 
-これ(↓)がGithub Actionsのコードです。Pushした際に実行されるようにしました。
+これ(↓)が最終的なGithub Actionsのコードです。Pushした際に実行されるようにしました。
 ``` yml
 name: build
 
@@ -71,6 +71,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      #Hugoをセットアップ
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -79,11 +80,12 @@ jobs:
 
       - name: Build Project
         run: hugo --gc --minify #ここでビルド
-
+      #node.jsをセットアップ
       - name: Setup npm
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
+      #atomic-algoliaをセットアップ
       - name: atomic-algolia install
         run: npm install atomic-algolia
       #検索エンジンににalgoliaを使っているので何か更新があったらここでalgoliaに送信する。

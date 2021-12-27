@@ -336,7 +336,7 @@ enableEmoji = true
     icp = ""
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= ''
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -399,15 +399,15 @@ enableEmoji = true
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
     # configure the link to view source the post
-    linkToSource = "https://github.com/kzt-wt/My-blog/blob/main/content/{path}"
+    linkToSource = ""#"https://github.com/kzt-wt/My-blog/blob/main/content/{path}"
     # configure the link to edit the post
     # 配置编辑文章的链接
-    linkToEdit = "https://github.com/kzt-wt/My-blog/edit/main/content/{path}"
+    linkToEdit = ""#"https://github.com/kzt-wt/My-blog/edit/main/content/{path}"
     # https://github.com/user/repo/edit/main/{path}
     # https://gitlab.com/user/repo/-/edit/main/{path}
     # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
     # configure the link to report issue the post
-    linkToReport = "https://github.com/kzt-wt/My-blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/kzt-wt/My-blog/blob/main/content/{path}|"
+    linkToReport = ""#"https://github.com/kzt-wt/My-blog/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/kzt-wt/My-blog/blob/main/content/{path}|"
     # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
     # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
     # whether to show the full text content in RSS
@@ -418,7 +418,7 @@ enableEmoji = true
     pageStyle = "normal"
     # whether to enable series navigation
     # 是否使用系列导航
-    seriesNavigation = true
+    seriesNavigation = false
     # Display a message at the beginning of an article to warn the reader that its content might be outdated.
     # 在文章开头显示提示信息，提醒读者文章内容可能过时。
     [params.page.outdatedArticleReminder]
