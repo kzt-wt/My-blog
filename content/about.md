@@ -6,7 +6,7 @@ draft: false
 <div style="text-align: right;">ブログを作りました</div>
 
 
-![profile_img](/img/github_profile.png/)
+![profile_img](/img/github_profile.webp)
 # 自己紹介
 14才です。[kaggle](https://www.kaggle.com/kazkidera)やblenderを中心に活動しています。
 # 趣味
