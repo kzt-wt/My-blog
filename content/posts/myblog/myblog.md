@@ -63,7 +63,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
       #Hugoをセットアップ
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
