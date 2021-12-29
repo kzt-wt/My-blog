@@ -13,7 +13,7 @@ description:
 featuredImage: "https://cdn.pixabay.com/photo/2015/10/30/13/51/snowflakes-1014159__340.jpg"
 lightgallery: true
 toc:
-  auto: true
+  enable: false
 seriesNavigation:
 ---
 

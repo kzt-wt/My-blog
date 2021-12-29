@@ -16,7 +16,7 @@ other = "記事"
 
 # === Taxonomy ===
 [allSome]
-other = "全ての{{ .Some }}"
+other = "{{ .Some }}"
 
 [tag]
 other = "タグ"
