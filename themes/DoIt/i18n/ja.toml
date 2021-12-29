@@ -1,0 +1,254 @@
+# Translations for English
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ==
+[backToTop]
+other = "上へ戻る"
+
+[viewComments]
+other = "コメントを見る"
+# === baseof ==
+
+# === Post ===
+[posts]
+other = "記事"
+# === Post ===
+
+# === Taxonomy ===
+[allSome]
+other = "全ての{{ .Some }}"
+
+[tag]
+other = "タグ"
+
+[tags]
+other = "タグ"
+
+[category]
+other = "カテゴリー"
+
+[categories]
+other = "カテゴリー"
+
+[series]
+other = "シリーズ"
+# === Taxonomy ===
+
+# === Section ===
+
+[recentlyUpdated]
+other = "最近の更新"
+
+# === Section ===
+
+# === Pagination ===
+[more]
+other = "More"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "言語選択"
+
+[switchTheme]
+other = "テーマを変更"
+
+[Light]
+other = "Light"
+
+[Dark]
+other = "Dark"
+
+[Black]
+other = "Black"
+
+[Auto]
+other = "Auto"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBy]
+other = "Powered by {{ .Hugo }}"
+
+[hostedOn]
+other = "Hosted on {{ .Host }}"
+
+[theme]
+other = "Theme - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "ja"
+
+[valinePlaceholder]
+other = "あなたのコメント"
+
+[facebookLanguageCode]
+other = "ja_JP"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "検索"
+
+[searchPlaceholder]
+other = "タイトルや内容を検索する"
+
+[clear]
+other = "クリア"
+
+[cancel]
+other = "キャンセル"
+
+[noResultsFound]
+other = "結果は見つかりませんでした"
+
+[lunrLanguageCode]
+other = "ja"
+
+[copyToClipboard]
+other = "クリップボードにコピー"
+
+[cookieconsentMessage]
+other = "このウェブサイトでは、お客様の利便性を向上させるためにCookieを使用しています。"
+
+[cookieconsentDismiss]
+other = "承認"
+
+[cookieconsentLink]
+other = "詳細はこちら"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "共有"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "目次"
+
+[publishedOnDate]
+other = "{{ .Date }}に公開"
+
+[includedIn]
+other = " "
+
+[includedInAnd]
+other = " "
+
+[includedInCategories]
+one = "{{ .Categories }}"
+other = "{{ .Categories }}"
+
+[includedInSeries]
+other = "{{ .Series }}"
+
+[wordCount]
+one = "一言"
+other = "{{ .Count }}字"
+
+[readingTime]
+one = "1分"
+other = "{{ .Count }}分で読めます"
+
+[views]
+other = "回閲覧"
+
+[comments]
+other = "コメント"
+
+[author]
+other = "Author"
+
+[updatedOnDate]
+other = "{{ .Date }}に更新"
+
+[readMarkdown]
+other = "markdownを読む"
+
+[viewSource]
+other = "ソースを読む"
+
+[editThisPage]
+other = "ページを編集する"
+
+[reportThisPage]
+other = "issuesはこちら"
+
+[back]
+other = "戻る"
+
+[home]
+other = "ホーム"
+
+[readMore]
+other = "続きを読む"
+
+[outdatedInfoWarningBefore]
+other = "最終更新日 "
+
+[outdatedInfoWarningAfter]
+other = "は、内容が古くなっている可能性があります。"
+
+[sponsor]
+other = "スポンサー"
+# === posts/single.html ===
+
+# === 404.html ===
+[pageNotFound]
+other = "ページが見つかりません"
+
+[pageNotFoundText]
+other = "お探しのページはございません。"
+# === 404.html ===
+
+# === shortcodes/admonition.html ===
+[note]
+other = "Note"
+
+[abstract]
+other = "Abstract"
+
+[info]
+other = "Info"
+
+[tip]
+other = "Tip"
+
+[success]
+other = "Success"
+
+[question]
+other = "Question"
+
+[warning]
+other = "Warning"
+
+[failure]
+other = "Failure"
+
+[danger]
+other = "Danger"
+
+[bug]
+other = "Bug"
+
+[example]
+other = "Example"
+
+[quote]
+other = "Quote"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "NEW"
+
+[changed]
+other = "変更あり"
+
+[deleted]
+other = "削除済み"
+# === shortcodes/version.html ===
