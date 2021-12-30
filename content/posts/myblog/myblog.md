@@ -8,7 +8,7 @@ weight: 1
 series: ["Hugoでブログ作成"]
 series_weight: 1
 description: "MYブログを作りました。Hugoの説明も載せています。"
-featuredImage: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg"
+featuredImage: ""
 lightgallery: true
 summary: "このブログで試用されているHugoの説明と導入方法"
 
