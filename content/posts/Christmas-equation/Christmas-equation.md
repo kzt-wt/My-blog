@@ -10,7 +10,7 @@ series:
 weight:
 series_weight:
 description:
-featuredImage: ""
+featuredImage: "/posts/Christmas-equation/christmas-gc60307b93_1920(1).webp"
 lightgallery: true
 toc:
   enable: false
