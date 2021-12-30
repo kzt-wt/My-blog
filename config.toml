@@ -15,7 +15,7 @@ title = "kzt-blog"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
@@ -696,7 +696,7 @@ enableEmoji = true
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "ZQ6KX9RC589i93OQ7reGAThfKxPDU88s4YeA9vJqSKY"
+    google = "rs8ul3xI4Wd-QHy-mK9hrFrx8gawLbe8428Q_eVUoqU"
     bing = ""
     yandex = ""
     pinterest = ""
