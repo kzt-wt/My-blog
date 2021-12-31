@@ -667,7 +667,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "kzt"#kzt-wt
-        logoUrl = "/img/SHIBUYA画像.webp/"
+        logoUrl = "/img/kzt_blog画像.webp"
 
   # Sponsor config
   # 赞助设置
