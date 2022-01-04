@@ -1,6 +1,12 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "kzt_blog",
+    "short_name": "kzt_blog",
+    "start_url": "/",
+    "description": "kzt-wtのブログです。",
+    "orientation": "portrait",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,8 +18,5 @@
             "sizes": "256x256",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    ]
 }
