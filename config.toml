@@ -15,7 +15,7 @@ title = "kzt-wt blog"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
-enableRobotsTXT = false
+enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
 enableGitInfo = true
@@ -278,7 +278,7 @@ enableEmoji = true
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["https://avatars.githubusercontent.com/u/87252429?v=4"]
+  images = ["https://user-images.githubusercontent.com/87252429/148188095-cb59f2c2-8b9d-4455-a2a0-40d526d94e0a.png"]
   # enable PWA
   # 开启 PWA 支持
   enablePWA = true
@@ -544,7 +544,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "kzt-wt"#kzt-wt
-        logoUrl = "https://user-images.githubusercontent.com/87252429/148061272-e98cc147-fa67-4563-8f6a-4348633c0eca.png"
+        logoUrl = "https://user-images.githubusercontent.com/87252429/148188095-cb59f2c2-8b9d-4455-a2a0-40d526d94e0a.png"
 
   # Sponsor config
   # 赞助设置

@@ -2,6 +2,8 @@
 title: ABOUT
 date: 2021-12-18T18:53:20+09:00
 draft: false
+comment:
+  enable: false
 ---
 <div style="text-align: right;">ブログを作りました</div>
 
