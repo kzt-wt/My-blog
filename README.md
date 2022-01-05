@@ -3,6 +3,6 @@
 [<img src="https://img.shields.io/badge/hosted%20on-Netlify-00C7B7.svg?logo=netlify&style=popout">](https://www.netlify.com/)
 
 # kzt_blog
-[こちら](https://kzt-blog.netlify.app/)
+[こちら](https://kzt-wt-blog.netlify.app/)
 
 
