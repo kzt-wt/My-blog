@@ -9,7 +9,6 @@ authors:
 weight:
 description:
 featuredImage: ""
-images: ""
 lightgallery: true
 ---
 今回はおすすめなテック系ポッドキャストについて紹介します。

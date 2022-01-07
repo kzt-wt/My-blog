@@ -9,7 +9,6 @@ authors:
 weight:
 description:
 featuredImage: "/posts/Christmas-equation/christmas-gc60307b93_1920(1).webp"
-images: "/posts/Christmas-equation/christmas-gc60307b93_1920(1).webp"
 lightgallery: true
 toc:
   enable: false

@@ -7,9 +7,7 @@ tags:
 categories:
 authors:
 weight:
-series_weight:
 description:
 featuredImage: ""
-images: ""
 lightgallery: true
 ---
