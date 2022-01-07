@@ -6,11 +6,10 @@ draft: true
 tags:
 categories:
 authors:
-series:
 weight:
-series_weight:
 description:
 featuredImage: ""
+images: ""
 lightgallery: true
 ---
 今回はおすすめなテック系ポッドキャストについて紹介します。

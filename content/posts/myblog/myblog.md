@@ -5,10 +5,9 @@ draft: false
 tags: ["Hugo","ブログ"]
 categories: ["ブログ"]
 weight: 1
-series: ["Hugoでブログ作成"]
-series_weight: 1
 description: "MYブログを作りました。Hugoの説明も載せています。"
 featuredImage: "/posts/myblog/watercolor-gb59e36f4b_1920(1).webp"
+images: "/posts/myblog/watercolor-gb59e36f4b_1920(1).webp"
 lightgallery: true
 summary: "このブログで試用されているHugoの説明と導入方法"
 ---

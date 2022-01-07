@@ -62,14 +62,14 @@ enableEmoji = true
         # title will be shown when you hover on this menu link.
         title = ""
         weight = 3
-      [[languages.ja.menu.main]]
-        identifier = "series"
-        pre = "<i class='fab fa-buffer'></i>"
-        post = ""
-        name = "Series"
-        url = "/series/"
-        title = ""
-        weight = 6
+#      [[languages.ja.menu.main]]
+#        identifier = "series"
+#        pre = "<i class='fab fa-buffer'></i>"
+#        post = ""
+#        name = "Series"
+#        url = "/series/"
+#        title = ""
+#        weight = 6
       [[languages.ja.menu.main]]
         identifier = "tags"
         pre = "<i class='fas fa-tags'></i>"
@@ -755,7 +755,7 @@ enableEmoji = true
 author = "authors"
 category = "categories"
 tag = "tags"
-series = "series"
+#series = "series"
 
 [related]
   includeNewer = false

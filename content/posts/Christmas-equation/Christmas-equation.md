@@ -6,11 +6,10 @@ draft: false
 tags: ["数学"]
 categories: ["数学"]
 authors:
-series:
 weight:
-series_weight:
 description:
 featuredImage: "/posts/Christmas-equation/christmas-gc60307b93_1920(1).webp"
+images: "/posts/Christmas-equation/christmas-gc60307b93_1920(1).webp"
 lightgallery: true
 toc:
   enable: false
