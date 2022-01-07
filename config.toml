@@ -180,7 +180,7 @@ enableEmoji = true
       [languages.ja.params.social]
         GitHub = "kzt-wt"
         Linkedin = ""
-        Twitter = ""
+        Twitter = "kzt_wt"
         Instagram = ""
         Facebook = ""
         Telegram = ""
