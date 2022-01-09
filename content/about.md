@@ -1,5 +1,6 @@
 ---
 title: ABOUT
+url: "about-me"
 date: 2021-12-18T18:53:20+09:00
 draft: false
 comment:

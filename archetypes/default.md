@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+url: ""
 date: {{ .Date }}
 lastmod:
 draft: true

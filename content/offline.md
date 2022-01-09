@@ -1,5 +1,6 @@
 ---
 title: "Offline"
+url: "offline"
 comment:
   enable: false
 ---

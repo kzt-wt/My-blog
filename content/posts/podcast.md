@@ -1,5 +1,6 @@
 ---
 title: "Podcast"
+url: "podcast"
 date: 2022-01-04T21:25:45+09:00
 lastmod:
 draft: true

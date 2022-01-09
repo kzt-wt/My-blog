@@ -1,5 +1,6 @@
 ---
 title: "Twitter始めました"
+url: "twitter-start"
 date: 2022-01-07T18:11:20+09:00
 lastmod:
 draft: false

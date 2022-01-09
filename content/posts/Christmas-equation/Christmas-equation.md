@@ -1,5 +1,6 @@
 ---
 title: "クリスマス方程式"
+url: "christmas-equation"
 date: 2021-12-26T20:41:01+09:00
 lastmod:
 draft: false

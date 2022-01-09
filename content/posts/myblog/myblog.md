@@ -1,5 +1,6 @@
 ---
 title: "ブログ作りました"
+url: "myblog"
 date: 2021-12-18T21:23:24+09:00
 draft: false
 tags: ["Hugo","ブログ"]
