@@ -9,5 +9,6 @@ authors:
 weight:
 description:
 featuredImage: ""
+images: [""]
 lightgallery: true
 ---
