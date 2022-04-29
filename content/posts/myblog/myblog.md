@@ -16,9 +16,9 @@ summary: "このブログで試用されているHugoの説明と導入方法"
 ---
 皆さんブログを書いていますか？
 
-僕は[wordpress](https://wordpress.com/ja/)や[はてなブログ](https://hatenablog.com/guide)、[zenn](https://zenn.dev/about)(zennってブログなのかな???)
+僕は[wordpress](https://wordpress.com/ja/)や[はてなブログ](https://hatenablog.com/guide)、[zenn](https://zenn.dev/about)
 
-で迷っていましたが、色々調べた結果[Hugo](https://gohugo.io/)にたどり着きました:clap:
+で迷っていましたが、結果[Hugo](https://gohugo.io/)にたどり着きました:clap:
 
 <br />
 
@@ -34,7 +34,7 @@ Hugoは静的なので表示速度が速く、さらにビルド時に最適化�
 
 ## Githubへ公開
 このブログは[Github](https://github.com/kzt-wt/My-blog)にパブリックリポジトリで公開しています。
-理由は多々ありますが...
+先に理由を言うと、Netlifyの無料枠の制限を超えないようにするためです。
 <br />
 <br />
 ## Netlifyを使う
